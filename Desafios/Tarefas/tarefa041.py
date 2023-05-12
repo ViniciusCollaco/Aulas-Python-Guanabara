@@ -1,6 +1,6 @@
 from datetime import date
-nasc = int(input('Qual o seu ano de nescimento: '))
 atual = date.today().year
+nasc = int(input('Qual o seu ano de nescimento: '))
 idade = atual - nasc
 print('O atleta tem {} anos'.format(idade))
 if idade <= 9:
