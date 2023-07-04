@@ -1,6 +1,6 @@
 valor = mult = 0
 print('Tabuada, caso queira sair colocar numero negativo.')
-while valor >= 0:
+while True:
     print('-=-' * 30)
     valor = int(input('Qual valor desejado para a tabuada: '))
     print('-=-' * 30)
