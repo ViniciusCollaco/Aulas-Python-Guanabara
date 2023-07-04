@@ -3,6 +3,7 @@ while valor != 999:
     print('-=-' * 30)
     valor = int(input('Qual valor que voce deseja (digite 999 para parar) '))
     if valor == 999:
+        print('Programa encerrado, obrigado por usar!!!')
         break
     cont += 1
     soma += valor
