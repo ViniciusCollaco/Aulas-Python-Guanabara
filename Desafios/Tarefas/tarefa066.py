@@ -1,5 +1,5 @@
 valor = cont = soma =0
-while valor != 999:
+while True:
     print('-=-' * 30)
     valor = int(input('Qual valor que voce deseja (digite 999 para parar) '))
     if valor == 999:
