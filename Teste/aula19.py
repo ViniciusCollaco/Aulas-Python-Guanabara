@@ -20,5 +20,3 @@ for c in range(0, 3):
 for e in brasil:
     for k, v in e.items():
         print(f'O campo {k} tem valor {v}.')
-
-        
