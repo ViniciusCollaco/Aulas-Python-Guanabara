@@ -8,6 +8,5 @@ def voto(anoNac):
         return print(f'Com {idade} anos: VOTO OPCIONAL.')
     else:
         return print(f'Com {idade} anos: VOTO OBRIGATÓRIO.')
-# Programa principal
 anoNac = int(input('Em que ano você nasceu ? '))
 voto(anoNac)
