@@ -10,13 +10,15 @@ def notas(*valores, situacao=False):
     boletim['Maior'] = max(valores)
     boletim['Menor'] = min(valores)
     boletim['Media'] = sum(valores) / len(valores)
-    if situacao != False:
+    if situacao:
         if boletim['Media'] >= 7:
-            boletim['Situação'] = 'Aprovado'
+            boletim['Situação'] = 'BOA'
+        elif boletim['Media'] >= 5:
+            boletim['Situação'] = 'RAZOÁVEL'
         else:
             boletim['Situação'] = 'Reprovado'
     return boletim
 
-resposta = notas(5.5, 2.5, 10, 6.5)
+resposta = notas(5.5, 2.5, 8.5, situacao=True)
 print(resposta)
 
