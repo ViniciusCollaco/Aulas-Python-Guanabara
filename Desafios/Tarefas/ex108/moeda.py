@@ -14,5 +14,5 @@ def metade(valor = 0):
     resultMeta = valor / 2
     return resultMeta
 
-def moeda(valor = 0, moeda = 'R$ '):
+def formatacao(valor = 0, moeda = 'R$ '):
     return f'{moeda}{valor:>.2f}'.replace('.', ',')
