@@ -1,9 +1,9 @@
-def aumentar(valor = 0, taxa = 0):
-    resulAum = valor + (valor * taxa/100)
+def aumentar(valor = 0, porcentagem = 0):
+    resulAum = valor + (valor * porcentagem / 100)
     return resulAum
     
-def diminuir(valor = 0, taxa = 0):
-    resulDim = valor - (valor * taxa/100)
+def diminuir(valor = 0, porcentagem = 0):
+    resulDim = valor - (valor * porcentagem / 100)
     return resulDim
     
 def dobro(valor = 0):
