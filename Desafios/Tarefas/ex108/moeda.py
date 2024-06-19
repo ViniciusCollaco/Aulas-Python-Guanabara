@@ -14,5 +14,5 @@ def metade(valor = 0):
     resultMeta = valor / 2
     return resultMeta
 
-def formatacao(valor = 0, sifram = 'R$ '):
-    return f'{sifram}{valor:>.2f}'.replace('.', ',')
+def formatacao(valor = 0, cifrao = 'R$ '):
+    return f'{cifrao}{valor:>.2f}'.replace('.', ',')
