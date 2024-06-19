@@ -16,4 +16,3 @@ def metade(valor = 0, validador = False):
 
 def formatacao(valor = 0, cifrao = 'R$ '):
     return f'{cifrao}{valor:>.2f}'.replace('.', ',')
-
