@@ -1,4 +1,4 @@
-from ex107 import moeda 
+from tarefa107 import moeda 
 valor = float(input('Digite o preço: R$ '))
 print(f'A metade de R$ {valor} é R$ {moeda.metade(valor)}')
 print(f'O dobro de R$ {valor} è R$ {moeda.dobro(valor)}')
