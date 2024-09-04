@@ -23,7 +23,3 @@ def leiaFloat(valor):
             return 0
         else:
             return numero
-
-inteiro = leiaInt('Digite um inteiro: ')
-real = leiaFloat('Digite um real: ')
-print(f'O valor inteiro digitado foi {inteiro} e o real foi {real}')
